@@ -1,0 +1,14 @@
+.container img {
+    width: 32%;
+    height: 10%;
+    margin-left: 1%;
+}
+
+.container {
+    text-align: center;
+}
+
+.gallery-header {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}

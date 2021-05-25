@@ -1,0 +1,1 @@
+On hover, underline should be start from left to right.

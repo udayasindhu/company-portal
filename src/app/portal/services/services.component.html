@@ -1,0 +1,21 @@
+<div class="container">
+    <h3 class="services-header">
+        Our Services
+    </h3>
+    <ng-container *ngFor="let service of serviceList">
+        <div class="card js-tilt">
+            <div class="serviceImg">
+                <img src="../../../assets/images/services/{{service}}.png"
+                    alt="Image of {{service}}">
+            </div>
+            <div class="serviceContent">
+                <h1>
+                    {{service}}
+                </h1>
+                <div class="serviceDesc">
+                    {{services[service]}}
+                </div>
+            </div>
+        </div>
+    </ng-container>
+</div>

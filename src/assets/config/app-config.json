@@ -1,0 +1,38 @@
+{
+    "menu": [
+        "services",
+        "about",
+        "contact",
+        "gallery"
+    ],
+    "services": {
+        "UI": "We provide easy-to-use UI/UX design services along with a W-O-W experience.",
+        "DevOps": "We elevate your productivity along with quality and speed.",
+        "Cloud": "We reduce your maintenance burden with trending cloud services",
+        "Business": "We help you to boost your business with our assistance and analysis terminology"
+    },
+    "contact": {
+        "address": "Koodal Nagar, Madurai, Tamil Nadu, India - 625018",
+        "mobile": "+91-85267-37794",
+        "email": "info@honeeyriver.com"
+    },
+    "about": {
+        "aboutUs": "Please include the file location of about us under assests/config/about.json",
+        "clients": ["Google", "Apple"],
+        "employees": "2000+",
+        "locations": ["Madurai", "Pune", "Bengaluru", "Chicago", "London"]
+    },
+    "gallery": [
+        "../images/gallery/gallery_image1.png",
+        "Please include the file location of image2",
+        "Please include the file location of image3"
+    ],
+    "follow": {
+        "linkedin": "https://in.linkedin.com/in/honeeyriver",
+        "twitter": "https://twitter.com/honeeyriver",
+        "instagram": "https://www.instagram.com/honeeyriver/",
+        "facebook": "https://www.facebook.com/honeeyriver/"
+    },
+    "copyright": "©2021 Honeey River Technologies Ltd.",
+    "mapCoordinates": "9.967173749099679, 78.09773341272633"
+}

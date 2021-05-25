@@ -1,0 +1,144 @@
+.images {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #B2D8D8, transparent);
+    z-index: 10000;
+}
+
+.images::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    mix-blend-mode: color;
+}
+
+.images img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.highlightText {
+    background: linear-gradient(0deg, #F48D79, #FFC0B4);
+    background-size: 100% 0.4em;
+    background-position: 0 90%;
+    background-repeat: no-repeat;
+}
+
+#tagLine:hover {
+    background: #F48D79;
+    color: white;
+}
+
+#companyName {
+    position: relative;
+    color: #373737;
+    font-size: 5vw;
+    z-index: 1;
+}
+
+#tagLine {
+    position: relative;
+    color: #373737;
+    font-size: 2vw;
+    z-index: 1;
+}
+
+#river {
+    z-index: 2;
+}
+
+#bg {
+    opacity: 0.3;
+    filter: blur(3px);
+    filter: invert(67%) sepia(60%) saturate(415%) hue-rotate(357deg) brightness(102%) contrast(102%)
+}
+
+.homeMenu {
+    position: absolute;
+    font-size: 2vmax;
+    left: 8%;
+    line-height: 8vh;
+}
+
+.services {
+    top: 15%;
+}
+
+.about {
+    top: 25%;
+}
+
+.contact {
+    top: 35%;
+}
+
+.gallery {
+    top: 45%;
+}
+
+.homeMenu {
+    height: 50px;
+    width: 50px;
+    background-color: #017075;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 20;
+}
+
+#services,
+#about,
+#contact,
+#gallery {
+    transition: width 0.3s;
+    transition-timing-function: linear;
+    width: 100px !important;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 50px;
+    height: 50px;
+    margin-bottom: 100%;
+    margin-left: 10px;
+    font-variant: small-caps;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#services:hover,
+#about:hover,
+#contact:hover,
+#gallery:hover {
+    color: white;
+    background-color: #017075;
+    width: 160px !important;
+}
+
+#services:focus,
+#about:focus,
+#contact:focus,
+#gallery:focus {
+    box-shadow: none;
+}

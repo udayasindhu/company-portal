@@ -1,0 +1,70 @@
+.container {
+    background: #FFC0B4;
+    height: 150px;
+    margin-bottom: 0px;
+    margin-top: 2%;
+    max-width: 100%;
+}
+
+.footer-header {
+    text-align: center;
+    margin-top: 2% !important;
+}
+
+.container .footer-header h3 {
+    line-height: 75px;
+}
+
+.company-logo {
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bolder;
+    height: 25px;
+    width: 25px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    background: #017075;
+    color: white;
+}
+
+.footer-content .company-name {
+    margin-top: 15px;
+}
+
+.footer-content .copyright {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.footer-content .follow-us {
+    margin-top: 25px;
+    text-align: right;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 25px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+}
+
+.fa-google {
+    background: #dd4b39;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+}

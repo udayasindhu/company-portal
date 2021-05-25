@@ -1,0 +1,21 @@
+/* Dark Teal : 017075 */
+/* Light Teal :  6AA8A8*/
+/* Dark Peach : F48D79 */
+/* Light Peach : FFC0B4 */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFC0B4;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #F48D79;
+}
+
+body {
+    background-color: lightgray;
+}
